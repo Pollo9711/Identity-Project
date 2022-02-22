@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ExampleIdentityService.Context\ExampleIdentityService.Context.csproj" />
+    <ProjectReference Include="..\ExampleIdentityService.Interfaces\ExampleIdentityService.Interfaces.csproj" />
+    <ProjectReference Include="..\ExampleIdentityService.Mapper\ExampleIdentityService.Mapper.csproj" />
+    <ProjectReference Include="..\ExampleIdentityService.Domain\ExampleIdentityService.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

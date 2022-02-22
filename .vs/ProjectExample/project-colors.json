@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "c1b3b673-0788-47a7-8061-ee4ecef2f80f": {
+      "ProjectGuid": "c1b3b673-0788-47a7-8061-ee4ecef2f80f",
+      "DisplayName": "ProjectExample.Context",
+      "ColorIndex": 0
+    },
+    "d18a026c-b36c-4ad1-ba18-df50bf29b28f": {
+      "ProjectGuid": "d18a026c-b36c-4ad1-ba18-df50bf29b28f",
+      "DisplayName": "ProjectExample.Domain",
+      "ColorIndex": 1
+    },
+    "02ed6981-2b5e-4ca0-b3a0-7b6ac19f674a": {
+      "ProjectGuid": "02ed6981-2b5e-4ca0-b3a0-7b6ac19f674a",
+      "DisplayName": "ProjectExample.Interface",
+      "ColorIndex": 2
+    },
+    "14be39ea-8b8c-456e-b094-637aab55e4b7": {
+      "ProjectGuid": "14be39ea-8b8c-456e-b094-637aab55e4b7",
+      "DisplayName": "ProjectExample.Repositories",
+      "ColorIndex": 3
+    },
+    "d6e1a2f5-6e77-4b46-bf3b-4ede329c0137": {
+      "ProjectGuid": "d6e1a2f5-6e77-4b46-bf3b-4ede329c0137",
+      "DisplayName": "ProjectExample.Api",
+      "ColorIndex": 4
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "File esterni",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 5
+}

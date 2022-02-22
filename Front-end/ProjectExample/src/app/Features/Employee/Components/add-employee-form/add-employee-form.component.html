@@ -1,0 +1,45 @@
+<div class="form-control mt-5 " >
+  <h3>ADD EMPLOYEE</h3>
+  <form [formGroup]="addEmployeeForm" (ngSubmit)="addEmployee()">
+    <input type="text"
+           class="form-control"
+           placeholder="Name"
+           formControlName="name">
+
+    <input type="text"
+           class="form-control mt-2"
+           placeholder="Lastname"
+           formControlName="lastname">
+
+    <input type="date"
+           class="form-control mt-2"
+           placeholder="Birthday"
+           formControlName="birthday">
+
+    <input type="text"
+           class="form-control mt-2"
+           placeholder="Your Email*"
+           formControlName="email">
+
+    <!-- FOR per il ruolo-->
+    <select class="form-control mt-2" formControlName="roleJob">
+      <option *ngFor="let r of role.roleList">{{r}}</option>
+    </select>
+
+
+    <textarea name="message"
+              class="form-control mt-2"
+              id="text"
+              cols="30"
+              rows="3"
+              placeholder="Description"
+              formControlName="message">
+
+    </textarea>
+
+    <button type="submit" class="btn btn-success w-100 mt-2">
+      SEND
+    </button>
+
+  </form>
+</div>
